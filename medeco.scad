@@ -83,6 +83,10 @@ module biaxial(key_cuts, key_cut_angle, key_cut_spacing)
 
       //translate([mm(1.921875), bow_width - blade_width - 11 ,mm(0.09375)]) cube([mm(0.796875), mm(0.09375),mm(0.3125)]);
       translate([mm(1.921875), bow_width - blade_width - 11 ,mm(0.0625)]) cube([mm(0.796875), mm(0.09375),mm(0.3125)]);
+        
+      //translate([mm(1.921875), bow_width - blade_width - 11 - mm(0.06) ,mm(0.0625)]) cube([mm(0.90), mm(0.09375) + mm(0.06),mm(0.5)]);
+        
+        
       // translate([mm(1.921875), bow_width - blade_width - 11 + mm(0.0625)  , mm(0.0625)]) cylinder(mm(0.15625/2), mm(0.0234375), true);
       //translate([mm(1.921875), bow_width - blade_width - 11 + mm(0.0625)  , mm(0.0625)]) cylinder(mm(0.15625/2), mm(0.0234375), true);
     }
