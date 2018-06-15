@@ -19,6 +19,15 @@ module bit()
 	}
 }
 
+/*
+module rounded_cube(d,r) {
+    hull() for(p=[[r,r,r], [r,r,d[2]-r], [r,d[1]-r,r], [r,d[1]-r,d[2]-r],
+                  [d[0]-r,r,r], [d[0]-r,r,d[2]-r], [d[0]-r,d[1]-r,r], [d[0]-r,d[1]-r,d[2]-r]])
+        translate(p) sphere(r);
+}
+*/
+
+
 module blade(blade_length, blade_width, blade_thickness, key_cuts, key_cut_angle, key_cut_spacing, shoulder, cut_spacing, cut_depth)
 {
 	difference()
@@ -34,6 +43,27 @@ module blade(blade_length, blade_width, blade_thickness, key_cuts, key_cut_angle
     translate([blade_length + shoulder, mm(1/16), 0]) {
 			rotate([0, 0, 220]) cube([10, 10, blade_thickness]);
 		}
+        
+        //Side mill
+        // - Eangle
+        tip = 0.8;
+        tip2 = 0.3;
+        tip3 = 0.4;
+        translate([shoulder, 3.0988 , blade_thickness - tip]) cube([blade_length + 0.2,0.7022, 1]);
+        
+        translate([shoulder, 5.0038 , blade_thickness - tip]) cube([blade_length + 0.2,0.6604, 1]);
+        
+        translate([shoulder, 6.1468 , blade_thickness - tip2]) cube([blade_length + 0.2,1.65, 1]);
+         
+        // - Non-eagle
+        
+        translate([shoulder, 0.7366, tip - 1]) cube([blade_length + 0.2, 1 , 1]);
+        
+        translate([shoulder, 2.9464, tip - 1]) cube([blade_length + 0.2, 1 , 1]);
+         
+        translate([shoulder, 4.8514, tip - 1]) cube([blade_length + 0.2, 0.9, 1]);
+        
+        translate([shoulder, 6.9342, tip3 - 1]) cube([blade_length + 0.2, 0.7366, 1]);
 
 		//Cut the blade
 		for (counter = [0:5])
@@ -42,6 +72,7 @@ module blade(blade_length, blade_width, blade_thickness, key_cuts, key_cut_angle
 		}
 	}
 }
+
 
 module biaxial(key_cuts, key_cut_angle, key_cut_spacing)
 {
@@ -56,18 +87,24 @@ module biaxial(key_cuts, key_cut_angle, key_cut_spacing)
 	bow_length = mm(1.09375);
 	bow_width = mm(1.09375);
 	bow_thickness = mm(.125);
+    
+    //from origin to the bottom of the blade
+    blade_starting = 11;
+    
+    //first difference on eagle side
+    dip = 2.1336;
 
 	difference()
 	{
 		union()
 		{
 			bow(bow_length, bow_width, bow_thickness);
-      translate([bow_length, bow_width - blade_width - 11, 0]) blade(blade_length, blade_width, blade_thickness, key_cuts, key_cut_angle, key_cut_spacing, shoulder, cut_spacing, cut_depth);
-      translate([mm(1.09375 + 0.3125), bow_width - blade_width - 11, mm(0.09375)]) cube([mm(0.3125), mm(0.0625), mm(0.03125)]);
+            translate([bow_length, bow_width - blade_width - blade_starting, 0]) blade(blade_length, blade_width, blade_thickness, key_cuts, key_cut_angle, key_cut_spacing, shoulder, cut_spacing, cut_depth);
+            translate([mm(1.09375 + 0.3125), bow_width - blade_width - blade_starting, mm(0.09375)]) cube([mm(0.3125), mm(0.0625), mm(0.03125)]);
 		}
-      //translate([mm(1.921875), bow_width - blade_width - 11 ,mm(0.09375)]) cube([mm(0.796875), mm(0.09375),mm(0.3125)]);
-      translate([mm(1.921875), bow_width - blade_width - 11 ,mm(0.0625)]) cube([mm(0.796875), mm(0.09375),mm(0.3125)]);
-      //translate([mm(1.921875), bow_width - blade_width - 11 - mm(0.06) ,mm(0.0625)]) cube([mm(0.90), mm(0.09375) + mm(0.06),mm(0.5)]);
+
+      translate([mm(1.921875), bow_width - blade_width - blade_starting - 0.5 ,mm(0.0625)]) cube([mm(0.796875) + 0.5, dip + 0.5, mm(0.3125) + 0.5]);
+
     }
 }
 
