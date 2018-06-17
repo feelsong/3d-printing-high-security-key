@@ -5,7 +5,9 @@ function mm(i) = i*25.4;
 
 module bow(bow_length, bow_width, bow_thickness)
 {
-  cube([bow_length, bow_width, bow_thickness]);
+   difference() {   
+      cube([bow_length, bow_width, bow_thickness]);
+   }
 }
 
 module bit()
@@ -19,13 +21,13 @@ module bit()
 	}
 }
 
-/*
+
 module rounded_cube(d,r) {
     hull() for(p=[[r,r,r], [r,r,d[2]-r], [r,d[1]-r,r], [r,d[1]-r,d[2]-r],
                   [d[0]-r,r,r], [d[0]-r,r,d[2]-r], [d[0]-r,d[1]-r,r], [d[0]-r,d[1]-r,d[2]-r]])
         translate(p) sphere(r);
 }
-*/
+
 
 
 module blade(blade_length, blade_width, blade_thickness, key_cuts, key_cut_angle, key_cut_spacing, shoulder, cut_spacing, cut_depth)
@@ -104,7 +106,7 @@ module biaxial(key_cuts, key_cut_angle, key_cut_spacing)
 		}
 
       translate([mm(1.921875), bow_width - blade_width - blade_starting - 0.5 ,mm(0.0625)]) cube([mm(0.796875) + 0.5, dip + 0.5, mm(0.3125) + 0.5]);
-
+             translate([mm(1.921875) +mm(0.02) , bow_width - blade_width - 11 + mm(0.08)  , mm(0.0625)]) cylinder(mm(0.5), mm(0.0234375));
     }
 }
 
