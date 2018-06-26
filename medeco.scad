@@ -53,21 +53,21 @@ module blade(blade_length, blade_width, blade_thickness, key_cuts, key_cut_angle
         tip = 0.8;
         tip2 = 0.3;
         tip3 = 0.4;
-        translate([shoulder, 3.0988 , blade_thickness - tip]) rounded_cube([blade_length + 0.2,0.7022, 1], 0.1);
+        translate([shoulder, 3.0988 , blade_thickness - tip]) cube([blade_length + 0.2,0.7022, 1]);
         
-        translate([shoulder, 5.0038 , blade_thickness - tip]) rounded_cube([blade_length + 0.2,0.6604, 1], 0.1);
+        translate([shoulder, 5.0038 , blade_thickness - tip]) cube([blade_length + 0.2,0.6604, 1]);
         
-        translate([shoulder, 6.1468 , blade_thickness - tip2]) rounded_cube([blade_length + 0.2,1.65, 1], 0.1);
+        translate([shoulder, 6.1468 , blade_thickness - tip2]) cube([blade_length + 0.2,1.65, 1]);
          
         // - Non-eagle
         
-        translate([shoulder, 0.7366, tip - 1]) rounded_cube([blade_length + 0.2, 1 , 1], 0.1);
+        translate([shoulder, 0.7366, tip - 1]) cube([blade_length + 0.2, 1 , 1]);
         
-        translate([shoulder, 2.9464, tip - 1]) rounded_cube([blade_length + 0.2, 1 , 1], 0.1);
+        translate([shoulder, 2.9464, tip - 1]) cube([blade_length + 0.2, 1 , 1]);
          
-        translate([shoulder, 4.8514, tip - 1]) rounded_cube([blade_length + 0.2, 0.9, 1], 0.1);
+        translate([shoulder, 4.8514, tip - 1]) cube([blade_length + 0.2, 0.9, 1]);
         
-        translate([shoulder, 6.9342, tip3 - 1]) rounded_cube([blade_length + 0.2, 0.7366, 1], 0.1);
+        translate([shoulder, 6.9342, tip3 - 1]) cube([blade_length + 0.2, 0.7366, 1]);
 
 		//Cut the blade
 		for (counter = [0:5])
