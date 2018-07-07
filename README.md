@@ -1,5 +1,17 @@
 #Medeco M3 Biaxial High Security Key
 
+#Key Control
+
+#High Security
+
+#Axial Cut
+
+#Side Mill
+
+#Pin Code
+
+#Material
+
 #list of useful links
 
 * [http://www.3ders.org/articles/20111031-duplicate-your-keys-with-a-3d-printer.html]
