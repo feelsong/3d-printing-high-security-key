@@ -14,15 +14,6 @@ Key Control is the system implemented by lock manufacturer to control the distri
 
 
 The M3 locks are pin tumbler locks with pins of various length with axial rotation to prevent from opening the cylinder. Each cut has a possiblity of 6 depths, 3 angles and 3 horizontal offsets. The vertical depth of the key will be measured from the root of the key. Angles are left, right and center with 20 degree angle used. If cuts looked from the shoulder are made in clock wise, they are right cuts. There are also 3 types of spacing(Fore, Center, Aft) to each cuts. While Fore cuts come before the center point, Aft cuts are cuts made away from center points for original pin space. The dimensions for spacing and depth are shown below.
-
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
 <table class="tg">
   <tr>
     <th class="tg-0pky"></th>
