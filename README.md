@@ -1,4 +1,4 @@
-![Medeco Key](https://imgur.com/QBKgxro)
+![Medeco Key](https://i.imgur.com/QBKgxro.png)
 
 # 3D Printing Medeco M3 Biaxial Key
 
