@@ -1,14 +1,14 @@
+![Medeco Key](https://imgur.com/QBKgxro)
+
 # 3D Printing Medeco M3 Biaxial Key
 
-Medeco M3 Key is a high security key with patented protection and biaxial cut design. Its design and key control makes the duplication of M3 keys virtually impossible through any locksmiths. Medeco locks are claimed to secure places across U.S governement and military installations. 
-
-![Medeco Key](http://lockwiki.com/images/thumb/7/74/Medeco_M3_key.jpg/800px-Medeco_M3_key.jpg)
+Medeco M3 Key is a high security key with patented protection and biaxial cut design. Its design and key control makes the duplication of M3 keys virtually impossible through any locksmiths. Medeco locks are claimed to secure places across U.S governement and military installations.
 
 ## Key Control
 
 Key Control is the system implemented by lock manufacturer to control the distribution, duplication, and privilege level of keys. The main purpose of key control is to make locks more secure by limiting the access to key blanks and restricting methods of key duplication. For Medeco M3, only authorized locksmiths with license are able to install and distribute Medeco M3 locks and keys.
 
-## Pin Codes with Axial Cut 
+## Pin Codes with Axial Cut
 
 ![Medeco Key Mechanism](http://reedbrotherssecurity.com/wp-content/uploads/2012/01/Medeco-Reed-Brothers-Security-300x217.jpg)
 
@@ -71,7 +71,7 @@ The M3 locks are pin tumbler locks with pins of various length with axial rotati
 The precision cuts on the side of the key push slider into the correct alignment with the sidebar. The keyway of M3 key seems widely varied by key blanks. Due to the restrictive nature of key blanks, the layout for keyway is well documented. However, it is fairly simple to replicate.
 
 
-## Reference 
+## Reference
 * [http://www.3ders.org/articles/20111031-duplicate-your-keys-with-a-3d-printer.html]()
 * [https://www.forbes.com/sites/andygreenberg/2012/07/16/hacker-opens-high-security-handcuffs-with-3d-printed-and-laser-cut-keys/#6903f54e534c]()
 * [https://www.wired.com/2008/08/medeco-locks-cr/]()
