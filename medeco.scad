@@ -48,8 +48,8 @@ module blade(blade_length, blade_width, blade_thickness, key_cuts, key_cut_angle
 		
 		//Side mill
 		// - The eagle side
-        // These control how deep the grooves go.
-        // "Tip: The end of the key opposite of the bow. Some locks use the tip of the key to align cuts instead of the shoulder." http://www.lockwiki.com/index.php/Key
+		// These control how deep the grooves go.
+		// "Tip: The end of the key opposite of the bow. Some locks use the tip of the key to align cuts instead of the shoulder." http://www.lockwiki.com/index.php/Key
 		tip = 0.8;
 		tip2 = 0.3;
 		tip3 = 0.4;
