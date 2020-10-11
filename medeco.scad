@@ -74,8 +74,8 @@ module blade(blade_length, blade_width, blade_thickness, key_cuts, key_cut_angle
 		for (counter = [0:5])
 		{
 			translate([ shoulder + mm(0.244) + cut_spacing*counter + key_cut_spacing[counter] * mm(0.031), blade_width - (key_cuts[counter]) * cut_depth + 0.000125, blade_thickness/2])
-            rotate ([0, key_cut_angle[counter] * 20, 0])
-            bit();
+			rotate ([0, key_cut_angle[counter] * 20, 0])
+			bit();
 		}
 	}
 }
