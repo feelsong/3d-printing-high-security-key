@@ -72,7 +72,7 @@ The precision cuts on the side of the key push slider into the correct alignment
 
 
 ## Reference
-* [http://www.3ders.org/articles/20111031-duplicate-your-keys-with-a-3d-printer.html]()
+* [http://www.3ders.org/articles/20111031-duplicate-your-keys-with-a-3d-printer.html](http://www.3ders.org/articles/20111031-duplicate-your-keys-with-a-3d-printer.html)
 * [https://www.forbes.com/sites/andygreenberg/2012/07/16/hacker-opens-high-security-handcuffs-with-3d-printed-and-laser-cut-keys/#6903f54e534c]()
 * [https://www.wired.com/2008/08/medeco-locks-cr/]()
 * [https://www.youtube.com/watch?v=iOIRZnafgQk]()
