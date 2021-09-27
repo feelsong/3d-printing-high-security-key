@@ -1,6 +1,8 @@
 ![Medeco Key](https://i.imgur.com/QBKgxro.png)
 
 ![Printed Key](printed_key.jpg)
+Polished Brass 
+
 
 # 3D Printing Medeco M3 Biaxial Key
 
