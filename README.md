@@ -72,6 +72,9 @@ The M3 locks are pin tumbler locks with pins of various length with axial rotati
 
 The precision cuts on the side of the key push slider into the correct alignment with the sidebar. The keyway of M3 key seems widely varied by key blanks. Due to the restrictive nature of key blanks, the layout for keyway is well documented. However, it is fairly simple to replicate.
 
+## OpenSCAD
+
+[OpenSCAD](https://openscad.org/) is software for creating solid 3D CAD models. It is free software and available for Linux/UNIX, Windows and Mac OS X. Unlike most free software for creating 3D models (such as Blender) it does not focus on the artistic aspects of 3D modelling but instead on the CAD aspects. Thus it might be the application you are looking for when you are planning to create 3D models of machine parts but pretty sure is not what you are looking for when you are more interested in creating computer-animated movies.
 
 ## Reference
 * [http://www.3ders.org/articles/20111031-duplicate-your-keys-with-a-3d-printer.html](http://www.3ders.org/articles/20111031-duplicate-your-keys-with-a-3d-printer.html)
