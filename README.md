@@ -1,5 +1,7 @@
 ![Medeco Key](https://i.imgur.com/QBKgxro.png)
 
+![Printed Key](printed_key.jpg)
+
 # 3D Printing Medeco M3 Biaxial Key
 
 Medeco M3 Key is a high security key with patented protection and biaxial cut design. Its design and key control makes the duplication of M3 keys virtually impossible through any locksmiths. Medeco locks are claimed to secure places across U.S governement and military installations.
@@ -9,9 +11,6 @@ Medeco M3 Key is a high security key with patented protection and biaxial cut de
 Key Control is the system implemented by lock manufacturer to control the distribution, duplication, and privilege level of keys. The main purpose of key control is to make locks more secure by limiting the access to key blanks and restricting methods of key duplication. For Medeco M3, only authorized locksmiths with license are able to install and distribute Medeco M3 locks and keys.
 
 ## Pin Codes with Axial Cut
-
-![Medeco Key Mechanism](http://reedbrotherssecurity.com/wp-content/uploads/2012/01/Medeco-Reed-Brothers-Security-300x217.jpg)
-
 
 The M3 locks are pin tumbler locks with pins of various length with axial rotation to prevent from opening the cylinder. Each cut has a possiblity of 6 depths, 3 angles and 3 horizontal offsets. The vertical depth of the key will be measured from the root of the key. Angles are left, right and center with 20 degree angle used. If cuts looked from the shoulder are made in clock wise, they are right cuts. There are also 3 types of spacing(Fore, Center, Aft) to each cuts. While Fore cuts come before the center point, Aft cuts are cuts made away from center points for original pin space. The dimensions for spacing and depth are shown below.
 <table class="tg">
