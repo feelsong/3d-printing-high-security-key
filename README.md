@@ -1,7 +1,5 @@
 # 3D Printing Medeco M3 Biaxial Key
 ![Medeco Key](https://i.imgur.com/QBKgxro.png)
-![Printed Key](printed_key.jpg)
-Polished Brass 
 
 Medeco M3 Key is a high security key with patented protection and biaxial cut design. Its design and key control makes the duplication of M3 keys virtually impossible through any locksmiths. Medeco locks are claimed to secure places across U.S governement and military installations.
 
@@ -69,6 +67,11 @@ The M3 locks are pin tumbler locks with pins of various length with axial rotati
 ## Side
 
 The precision cuts on the side of the key push slider into the correct alignment with the sidebar. The keyway of M3 key seems widely varied by key blanks. Due to the restrictive nature of key blanks, the layout for keyway is well documented. However, it is fairly simple to replicate.
+
+## 3D Printed Key
+
+![Printed Key](printed_key.jpg)
+Polished Brass 
 
 ## OpenSCAD
 
